@@ -5,28 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
+  <div class="container-fluid">
+  <header class="row">
+    <div id="logo-div" class="col-md-12 logo-div">
+      <img src="./images/logo.svg" alt="Huddle logo" width="120">
+    </div>
+  </header>
+  <main>
+    <div id="main" class="row">
+      <div id="illu-div" class="col-md-6 illu-div">
+        <img src="./images/illustration-mockups.svg" width="100%" height="auto" alt="illustration mockups">
+      </div>
+      <div id="intro-section" class="col-md-6 intro-section">
+          <h2>Build The Community Your Fans Will Love</h2>
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <button id="Register" type="button" class="btn my-auto Register">Register</button>
+      </div>
+    </div>
+  </main>
+</div>
+  <footer class="row">
+    <div class="col-md-12 footer">
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
     </p>
+    </div>
   </footer>
 </body>
 </html>

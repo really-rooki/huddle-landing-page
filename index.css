@@ -37,6 +37,12 @@ h2 { font-family: Poppins;}
 
 /* Mobile view */
 @media only screen and (max-width: 600px) {
+    /* Background image */
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    };
     .cont { margin: 0; }
     .intro-section { margin-top: 20px; }
     .sm {text-align: center;}

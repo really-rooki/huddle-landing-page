@@ -23,15 +23,26 @@ h2 { font-family: Poppins;}
 .footer { margin: 60px auto 0 auto; }
 .attribution { font-size: 15px; text-align: center; }
 .attribution a { color: orange; }
+.sm {margin-bottom: 40px;}
 .sm-icon {
-    border: .1em transparent white;
-    padding: 3%;
+    color: white;
+    font-size: 20px;
+    float: right;
+    border: .1px solid white;
+    padding: 1%;
     margin: 10px;
     background-color: hsl(257, 39%, 45%);
     border-radius: 50%;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 600px) {
+/* Mobile view */
+@media only screen and (max-width: 600px) {
     .cont { margin: 0; }
     .intro-section { margin-top: 20px; }
+    .sm {text-align: center;}
+    .sm-icon {
+        float: none;
+        text-align: center;
+        border-radius: 50%;
+    }
 }
